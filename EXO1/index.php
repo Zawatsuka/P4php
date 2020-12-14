@@ -1,5 +1,5 @@
 <?php function okay(){
-    echo 'true';
+   echo true;
 }
     okay();
     ?>

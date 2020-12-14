@@ -1,5 +1,6 @@
-<?php function string(){
-    echo "Yo tous le monde c'est Squeezie";
+<?php 
+    function string($character){
+        return $character;
 }
-    string();
+  echo string("Yo tous le monde c'est Squeezie");
 ?>

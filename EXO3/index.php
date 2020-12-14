@@ -1,5 +1,5 @@
-<?php function string2(){
-    echo "c'est un"." BORDEL";
+<?php function string2($a,$b){
+    return $a.$b;
 }
-string2()
+echo string2("c'est un   ","bordel !!!");
 ?>

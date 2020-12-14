@@ -1,11 +1,12 @@
 <?php function number($a , $b){
     if ($a > $b){
-        echo "le premier chiffre est plus grand";
+        $response =  $a ." est plus grand";
     } else if($a < $b){
-        echo "le deuxieme chiffre est plus petit";
-    }else if($a == $b){
-        echo "Ils sont egaux";
+        $response =  $b ." est plus petit";
+    }else{
+        $response = $a ." et ". $b." sont egaux";
     } 
+    return $response;
 };
-number(45 , 45);
+echo number(4 , 3);
 ?>

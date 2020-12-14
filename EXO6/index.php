@@ -1,5 +1,5 @@
 <?php function sentence($a , $b , $c){
-    echo "Bonjour ". $a ." ". $b . ", tu as ". $c ." ans.";
+    return "Bonjour ". $a ." ". $b . ", tu as ". $c ." ans.";
 }
-sentence("Jean-Claude" , "Dusse" , 45); 
+echo sentence("Jean-Claude" , "Dusse" , 45); 
 ?>
